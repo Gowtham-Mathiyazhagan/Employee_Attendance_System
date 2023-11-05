@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body{
+    background-color: rgb(235, 232, 232);
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.formBox{
+    margin: 0px 10px 0 10px;
+    height: 400px;
+    background-color:rgb(241, 177, 177);
+}
+h3{
+    color: rgb(17, 180, 180);
+    padding:10px 0 0 10px ;
+}
+.formContant{
+    height: 350px;
+  border: 1px solid rgb(13, 13, 13);
+  margin: 0 10px 10px 10px;
+  padding-left:10% ;
+  border-radius: 5px;
+}
+form .row .colLabel{
+    float: left;
+    width: 150px;
+    padding: 20px;
+}
+form .row .colInput{
+    float: left;
+    width: 100px;
+    padding: 20px;
+    margin-left: 100px;
+}
+.row::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+label{
+    font-size: 13px;
+}
+input{
+    height: 20px;
+    padding: 10px;
+    outline-color: rgb(48, 48, 245);
+}
+select{
+    height: 24px;
+    outline-color: rgb(48, 48, 245);
+    width: 193px;
+}
+
+.btn{
+    display: flex;
+    gap: 10px;
+    margin:20px 0 0 10%;
+}
+.btn>button{
+    border-radius: 5px;
+    border: solid 1px rgb(11, 11, 11);
+    color: rgb(254, 248, 248);
+    background-color: rgb(255, 179, 0);
+    flex-basis: 100px;
+    padding: 3px;
+    font-weight: 600;
+}
+.btn>button:hover{
+background-color:rgb(236, 169, 11) ;
+}
+.table{
+    padding: 10px;
+}
+table{
+    border-collapse: collapse;
+    border-top: 1px solid rgb(0, 0, 0);
+    width: 100%;
+    margin-top: 30px;
+    font-size: 12px;
+}
+thead{
+    background-color: rgb(69, 69, 69)34;
+    box-shadow: 1px 1px 20px rgb(255, 254, 254) inset;
+}
+:is(thead,tbody) tr td{
+    border: 1px solid rgb(5, 4, 4);
+    padding-left: 5px;
+} 
+tbody{
+    background-color: rgb(113, 250, 113);
+}
+
+.modelBox1{
+    height: 120px;
+    width: 280px;
+    background-color:rgb(205, 201, 201);
+    border: 1px solid rgb(5, 4, 4) ;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0px 0px 10px 2px  rgb(5, 4, 4) ;
+    border-radius: 5px;
+    display: none;
+}
+.modelTop{
+    border-radius: 5px 5px 0px 0 ;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+}
+.modelTop>div{
+    margin-left: 10px;
+    line-height: 30px;
+    flex-basis: 230px;
+}
+.modelTop>i{
+    line-height: 30px;
+   width: 20px;
+   cursor: pointer;
+}
+.msgBox{
+    display: flex;
+    justify-content: space-evenly;
+}
+.msgBox>i{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.msgBox>div{
+    font-size: 13px;
+    margin-top: 25px;
+}
+.modelBox1>button{
+    float: right;
+    padding:0 10px 0 10px ;
+    margin:5px 10px 10px 0px;
+    border-radius: 5px;
+    background-color: rgb(183, 232, 253);
+    border: 1px solid rgb(0, 0, 0);
+}
+.modelBox1>button:hover{
+    background-color: rgb(111, 209, 250);
+}
+
+button.active{
+background-color:rgb(236, 169, 11) ;
+}
+.container{
+    height: 300px;
+    width: 280px;
+    background-color:rgb(205, 201, 201);
+    border: 1px solid rgb(5, 4, 4) ;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0px 0px 10px 2px  rgb(5, 4, 4) ;
+    border-radius: 5px;
+    display: none;
+}
+
+.head{
+    border-radius: 5px 5px 0px 0 ;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+}
+.head>div{
+    margin-left: 10px;
+    line-height: 30px;
+    flex-basis: 230px;
+}
+.head>i{
+    line-height: 30px;
+   width: 20px;
+   cursor: pointer;
+}
+.container>button{
+    float: right;
+    padding:0 10px 0 10px ;
+    margin:5px 10px 10px 0px;
+    border-radius: 5px;
+    background-color: rgb(183, 232, 253);
+    border: 1px solid rgb(0, 0, 0);
+}
+.container>button:hover{
+    background-color: rgb(111, 209, 250);
+}
+.qrCodeBox{
+    height: 230px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px 0px 0px 13px;
+}
+
+.qrCode.active{
+padding: 10px 0 0 10px;
+}
+
+
+.qrCodeBox.active{
+background-color: rgb(146, 145, 145);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.spiner{
+    height: 50px;
+    width: 50px;
+    border: solid 3px #b9b9bb ;
+    border-top-color: rgb(14, 13, 13);
+    border-radius: 50%;
+    animation: spiner 1s ease-out  infinite;
+    display: none;
+}
+
+@keyframes spiner{
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.qrCodeBox> .p{
+    font-size: 12px;
+    margin-top: 10px;
+    display: none;
+}
